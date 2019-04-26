@@ -8,8 +8,13 @@
 
 <script>
   export default{
+
     data(){
       return{
+          userData:{
+            email: "",
+            password: ""
+          }
 
       }
     }
