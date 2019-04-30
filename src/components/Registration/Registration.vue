@@ -3,7 +3,7 @@
   .content-wrapper
     section
       .container
-        h1.url-title-1 Registration
+        h1.ui-title-1 Registration
 
 </template>
 

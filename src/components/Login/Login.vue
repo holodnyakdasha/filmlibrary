@@ -2,19 +2,15 @@
   .content-wrapper
     section
       .container
-        h1.url-title-1 Login
+        h1.ui-title-1 Login
 
 </template>
 
 <script>
   export default{
-
     data(){
       return{
-          userData:{
-            email: "",
-            password: ""
-          }
+
 
       }
     }

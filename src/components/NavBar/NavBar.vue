@@ -1,5 +1,4 @@
 <template lang="pug">
-  .wrapper
     header
       .navbar
         .container
@@ -14,6 +13,7 @@
               span.line.line-1
               span.line.line-2
               span.line.line-3
+              span.line.line-4
           .navbar-list__wrapper(
           :class="{ active: menuShow }"
           )
@@ -37,6 +37,7 @@
         menuShow:false,
         linkMenu:[
           {title:'Home', url:'/'},
+          {title:'Tasks', url:'/tasks'},
           {title:'Login', url: '/login'},
           {title:'Registration', url:'/registration'}
         ]
@@ -48,6 +49,5 @@
 <style lang="stylus">
 
   #app
-    padding 30px
-    color #fff
+    padding 10px
 </style>
