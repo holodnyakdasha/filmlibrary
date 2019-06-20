@@ -96,7 +96,6 @@
     methods:{
       taskEdit (id, title, description) {
         this.editing = !this.editing
-        // console.log({id, title, description})
         this.taskId = id
         this.titleEditing = title
         this.desrEditing = description

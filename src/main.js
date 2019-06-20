@@ -24,12 +24,8 @@ new Vue({
   template: '<App/>',
   created(){
     var config = {
-      apiKey: 'AIzaSyD1ETic7SJiUnwtZ07JzNB4rEDUc8OjA8Q',
-      authDomain: 'film-library-f3da3.firebaseapp.com',
-      databaseURL: 'https://film-library-f3da3.firebaseio.com',
-      projectId: 'film-library-f3da3',
-      storageBucket: 'film-library-f3da3.appspot.com',
-      messagingSenderId: '469621284452'
+      //your key, domain, dataBaseUrl, projectId, storageBucket, messagingSenderId
+
     };
     firebase.initializeApp(config);
     firebase.auth().onAuthStateChanged(user=>{
